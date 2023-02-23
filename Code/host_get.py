@@ -3,6 +3,7 @@
 
 from zabbix_api import ZabbixAPI
 
+# Cabeçalho de conexão
 zapi = ZabbixAPI(server="http://192.168.10.103/zabbix")
 zapi.login("api_user","zabbix")
 
