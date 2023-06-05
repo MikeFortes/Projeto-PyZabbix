@@ -2,10 +2,10 @@
 # @author: Mike Fortes
 
 # Importando a classe ZabbixAPI da biblioteca zabbix_api
-from zabbix_api import ZabbixAPI
+from pyzabbix  import ZabbixAPI
 
 # Fazer conexão com a API
-zapi = ZabbixAPI(server="http://192.168.10.103/zabbix")
+zapi = ZabbixAPI(server="http://192.168.15.13/zabbix")
 
 # Fazendo logon
 zapi.login("api_user","zabbix")
